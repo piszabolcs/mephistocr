@@ -1,0 +1,23 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+build/
+dist/
+.vscode/
+.pytest_cache/
+*.log
+*.tmp
+*.spec.bak
+_ocr_log.tsv
+_ocr_stderr.log
+
+# Raw multi-MB logo sources stay out of the repo (see tools/prepare_assets.py)
+branding/
+/MephistOCR_logo*.png
+/MephistOcr_logo*.png
+
+# Optional Tesseract language packs: only hun/deu/eng/swe are versioned
+mephistocr/tessdata/fra.traineddata
+mephistocr/tessdata/pol.traineddata
+mephistocr/tessdata/osd.traineddata
